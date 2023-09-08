@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  
+<nav class="navbar-inverse" style="position: sticky;top: 0;z-index:99999;">
+  
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#">St.Xaviers school</a>
+</div>
+<div class="collapse navbar-collapse" id="my navbar">
+  <ul class="nav navbar-nav">
+    <li><a href="#cumpus_life">Campus Life</a></li>
+    <li><a href="#achivements">Achivements</a></li>
+    <li><a href="#new">Whats New</a></li>
+    <li><a href="#contactUs">Contact Us</a></li>
+  </ul>
+</div>
+</nav>
+<iframe id="image" src="data:image/jpeg;base64,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"></iframe>
+<div class="container">
+
+  <h2 class="page header" id="campus_life">Campus Life</h2>
+<center>
+  <div class="travel_mainDiv">
+    <img src="church.jpg">
+
+    <h4 class="text-capitalize"><kbd>School church</kbd></h4>
+
+    <br>
+    <h5 class="text-success text-capitalize" >Was established in 1978</h5>
+    <p class="text-muted">church has so many seats.everyday prayer is there in church</p>
+    </div>
+    </center>
+    <br><br>
+    <center>
+      <div class="travel_mainDiv">
+        <img src="st2.jpg">
+    
+        <h4 class="text-capitalize"><kbd>School library</kbd></h4>
+        <h5 class="text-success text-capitalize" >Was built in 1980</h5>
+        <p class="text-muted">libary is a place where books are kept.We can read many books</p>
+        </div>
+    </center>
+    <br><br>
+    <center>
+      <br><br>
+    </center>
+    <br><br>
+    <center>
+      <div class="travel_mainDiv">
+        <img src="st3.jpg">
+    
+        <h4 class="text-capitalize"><kbd>School suditorium</kbd></h4>
+        <h5 class="text-success text-capitalize" >Was built in 1982</h5>
+        <p class="text-muted">An auditorium is a room built to enable an audience to hear and watch performances. For movie theatres, the number of auditoria is expressed as the number of screens. </p>
+        </div>
+    </center>
+</body> 
+
+</html>
